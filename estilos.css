@@ -1,7 +1,35 @@
 *{
     font-family: "Ubuntu Condensed",serif;
 }
+body{
+    background-image: url(https://p4.wallpaperbetter.com/wallpaper/241/782/433/mist-4k-5k-hills-wallpaper-preview.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
 #encabezado{
+    background-color: rgb(60, 60, 60);
+    max-width: 100%;
+    color: beige;
     font-size: 1em;
     text-align: center;
+}
+#caja_informacion{
+    margin: auto;
+}
+#caja_foto{
+    margin: auto;
+}
+#foto_perfil{
+    border: 0.5em solid floralwhite;
+    border-radius: 100%;
+}
+#caja_datos{
+    background-color: floralwhite;
+    border-radius: 1em;
+}
+#lista_datos{
+    list-style-type: none;
+}
+.item_lista{
+    width: 50%;
 }
