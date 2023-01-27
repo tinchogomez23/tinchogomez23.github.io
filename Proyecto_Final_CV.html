@@ -6,24 +6,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Proyecto Final - Argentina Programa - CV</title>
     <link rel="stylesheet" href="estilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header id="encabezado">
-        <h1>Proyecto Final - Argentina Programa - CV</h1>
+    <header id="encabezado" class="col-12 p-2 mb-5">
+        <p class="h1">Proyecto Final - Argentina Programa - CV</p>
     </header>
-    <section id="caja_informacion">
-        <section id="caja_foto">
-            <img id="foto_perfil" src="https://randomuser.me/api/portraits/men/29.jpg" alt="No se pudo cargar la imagen :(">
+    <section id="caja_informacion" class="container">
+        <section id="caja_foto" class="d-flex justify-content-center">
+            <img id="foto_perfil" src="https://randomuser.me/api/portraits/men/29.jpg" alt="Foto de perfil">
         </section>
-        <section id="caja_datos">
-            <ul id="lista_datos">
-                <li class="item_lista">Nombre</li>
-                <li class="item_lista">Correo Electrónico</li>
-                <li class="item_lista">Fecha de Nacimiento</li>
-                <li class="item_lista">Dirección</li>
-                <li class="item_lista">Teléfono (celular)</li>
-                <li class="item_lista">Instagram</li>
+        <section id="caja_datos" class="p-3">
+            <ul id="lista_datos" class="d-flex flex-wrap">
+                <li class="flex-fill ">
+                    <p class="h2">Nombre</p>
+                    <p class="h3">Carlos Ramirez</p>
+                </li>
+                <li class="flex-fill ">
+                    <p class="h2">Correo Electrónico</p>
+                    <p class="h3">carlosramirez25@example.com</p>    
+                </li>
+                <li class="flex-fill ">
+                    <p class="h2">Fecha de Nacimiento</p>
+                    <p class="h3">12/12/1976</p>
+                </li>
+                <li class="flex-fill ">
+                    <p class="h2">Dirección</p>
+                    <p class="h3">Alsina 1200</p>
+                </li>
+                <li class="flex-fill ">
+                    <p class="h2">Teléfono (celular)</p>
+                    <p class="h3">1234567890</p>
+                </li>
+                <li class="flex-fill ">
+                    <p class="h2">Instagram</p>
+                    <p class="h3">@carlos_ramirez</p>
+                </li>
             </ul>
         </section>
     </section>

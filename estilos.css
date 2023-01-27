@@ -9,20 +9,14 @@ body{
 #encabezado{
     background-color: rgb(60, 60, 60);
     color: beige;
-    padding: 0.5em;
-    font-size: 1em;
     font-variant: small-caps;
     text-align: center;
     text-shadow: 2px 2px rgba(255, 255, 255, 0.5);
 }
-#caja_informacion{
-    margin: auto;
-}
-#caja_foto{
-    margin: auto;
-}
 #foto_perfil{
-    border: 0.5em solid floralwhite;
+    max-width: 100%;
+    height: auto;
+    border: 5px solid floralwhite;
     border-radius: 100%;
 }
 #caja_datos{
@@ -31,7 +25,6 @@ body{
 }
 #lista_datos{
     list-style-type: none;
-}
-.item_lista{
-    width: 50%;
+    margin: 0;
+    padding: 0;
 }
