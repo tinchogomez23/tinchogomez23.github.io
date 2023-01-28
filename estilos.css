@@ -10,12 +10,9 @@ body{
     background-color: rgb(60, 60, 60);
     color: beige;
     font-variant: small-caps;
-    text-align: center;
     text-shadow: 2px 2px rgba(255, 255, 255, 0.5);
 }
 #foto_perfil{
-    max-width: 100%;
-    height: auto;
     border: 5px solid floralwhite;
     border-radius: 100%;
 }
@@ -23,8 +20,23 @@ body{
     background-color: floralwhite;
     border-radius: 1em;
 }
-#lista_datos{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+#nombre{
+    list-style-image: url(user-solid.svg);
 }
+#instagram{
+    list-style-image: url(instagram.svg);
+}
+#cumpleaños{
+    list-style-image: url(cake-candles-solid.svg);
+}
+#direccion{
+    list-style-image: url(house-user-solid.svg);
+}
+#telefono{
+    list-style-image: url(phone-solid.svg);
+}
+#correo{
+    list-style-image: url(square-envelope-solid.svg);
+}
+
+
