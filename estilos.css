@@ -6,6 +6,12 @@ body{
     background-attachment: fixed;
     background-size: cover;
 }
+#caja_bienvenida{
+    
+    background-color: floralwhite;
+    font-size: 1em;
+    margin: auto;
+}
 #encabezado{
     background-color: rgb(60, 60, 60);
     color: beige;
