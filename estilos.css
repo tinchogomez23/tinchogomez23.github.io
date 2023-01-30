@@ -20,23 +20,11 @@ body{
     background-color: floralwhite;
     border-radius: 1em;
 }
-#nombre{
-    list-style-image: url(user-solid.svg);
+#lista_datos{
+    list-style-type: none;
 }
-#instagram{
-    list-style-image: url(instagram.svg);
+#info_adicional{
+    background-color: rgb(60, 60, 60);
+    color: beige;
 }
-#cumpleaños{
-    list-style-image: url(cake-candles-solid.svg);
-}
-#direccion{
-    list-style-image: url(house-user-solid.svg);
-}
-#telefono{
-    list-style-image: url(phone-solid.svg);
-}
-#correo{
-    list-style-image: url(square-envelope-solid.svg);
-}
-
 
