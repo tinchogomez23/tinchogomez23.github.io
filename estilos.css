@@ -7,7 +7,6 @@ body{
     background-size: cover;
 }
 #caja_bienvenida{
-    
     background-color: floralwhite;
     font-size: 1em;
     margin: auto;
@@ -17,6 +16,9 @@ body{
     color: beige;
     font-variant: small-caps;
     text-shadow: 2px 2px rgba(255, 255, 255, 0.5);
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
 }
 li{
     transition: background-color 0.5s;
@@ -33,12 +35,5 @@ li:hover{
 #info_adicional{
     background-color: rgb(60, 60, 60);
     color: beige;
-}
-.titulo{
-    transition: color 0.5s;
-}
-.titulo:hover{
-    color: ForestGreen;
-    text-decoration: underline;
 }
 

@@ -1,16 +1,25 @@
-//Mensaje de bienvenida
-function bienvenida(){
+function bienvenida(){//Genera la fecha del día de hoy para mostrar en el mensaje de bienvenida
     const hoy = new Date()
     document.getElementById("caja_bienvenida").style.display = "block";
     document.getElementById("renglon_bienvenida").innerHTML = hoy.toLocaleDateString();
 }
 
-document.getElementById("foto_perfil").addEventListener("mouseover",agrandar());
-var ancho_foto = document.getElementById("foto_perfil").style.width;
-var alto_foto = document.getElementById("foto_perfil").style.height;
-function agrandar() {
-    ancho_foto += ancho_foto*0.1;
-    alto_foto += alto_foto*0.1;
-    document.getElementById("foto_perfil").style.width = ancho_foto;
-    document.getElementById("foto_perfil").style.height = alto_foto;
+function agrandar(elemento){                    //Agranda el elemento que se le pasa como parámetro
+    elemento.style.transform = "scale(1.25,1.25)";
+    elemento.style.transition = "transform 1s";
 }
+
+function achicar(elemento){                     //Achica el elemento que se le pasa como parámetro
+    elemento.style.transform = "scale(1,1)";
+    elemento.style.transition = "transform 1s";
+}
+
+function subrayar(titulo){                      //Subraya y cambia de color al título de cada apartado de la 
+    titulo.style.color = "ForestGreen";         //sección de información adicional
+    titulo.style.textDecoration = "underline";
+    titulo.style.transition = "color 0.5s";
+}
+ function sacar_estilos(titulo){                //Vuelve a los estilos originales que tenían los títulos
+    titulo.style.color = "beige";
+    titulo.style.textDecoration = "none";
+ }
