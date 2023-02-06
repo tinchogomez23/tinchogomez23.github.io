@@ -19,6 +19,7 @@ body{
     position: -webkit-sticky;
     position: sticky;
     top: 0;
+    z-index: 2;
 }
 li{
     transition: background-color 0.5s;
@@ -36,4 +37,19 @@ li:hover{
     background-color: rgb(60, 60, 60);
     color: beige;
 }
+.p_con_borde{
+    border-right: 1px solid floralwhite;
+}
+#piePagina{
+    background-color: floralwhite;
+}
+
+
+@media screen and (max-width: 1000px){
+    .p_con_borde{
+        border-bottom: 1px solid FloralWhite;
+        border-right: none;
+    }
+}
+
 
